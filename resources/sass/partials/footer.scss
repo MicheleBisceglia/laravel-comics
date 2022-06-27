@@ -1,0 +1,32 @@
+footer {
+  background-color: black;
+}
+
+.footer-top {
+  height: 100px;
+  background-color: #0282f9;
+}
+
+.footer-center {
+  width: 100%;
+  height: 300px;
+  background-image: url(../assets/footer-bg.jpg);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-center .footer-center .footer-logo {
+  height: 100%;
+  width: 400px;
+  background-image: url(../assets/dc-logo-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-list {
+  display: flex;
+  width: 200px;
+  margin-left: 200px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
