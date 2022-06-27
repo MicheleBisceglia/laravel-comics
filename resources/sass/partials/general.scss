@@ -3,20 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #1c1c1c;
+}
 
-.main_content {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: black;
-}
-.card {
-  width: calc(100% / 6);
-  padding: 1rem;
-}
-.card h3 {
-  color: white;
-}
-.card img {
-  height: 95%;
-  width: 95%;
-}
+li {list-style: none;}

@@ -12,6 +12,13 @@
   @include('partials.header')
   <!-- / header -->
 
+  <div class="banner">
+    <div class="banner-btn">
+      <button>
+        <strong>CURRENT SERIES</strong>
+      </button>
+    </div>
+  </div>
   <!-- main -->
   @yield('main_content')
   <!-- / main -->

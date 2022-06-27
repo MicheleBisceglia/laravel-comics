@@ -11,7 +11,9 @@
           <h3>{{ $item['series'] }}</h3>
         </div>
       @endforeach
-    
+        <div class="main-btn">
+          <button>load More</button>
+        </div>
     </section>
 @endsection
 
