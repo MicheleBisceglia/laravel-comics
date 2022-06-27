@@ -12,9 +12,17 @@ li {
   list-style: none;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 header {
   height: 100px;
   width: 100%;
+}
+header a {
+  color: black;
 }
 
 .header {

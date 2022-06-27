@@ -13,8 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/card-info-us', function () {
+    return view('card-info');
+})->name('card-info');
+
 Route::get('/', function () {
     $data = config("comics");  
-    return view('home', compact("data"));
+    return view('home', compact("data"));  
 })->name('home');
 
